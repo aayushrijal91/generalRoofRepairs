@@ -1,0 +1,34 @@
+$font-bevietnam: "BeVietnam", sans-serif;
+
+$font-body: $font-bevietnam;
+
+$font-families: (
+    "bevietnam": "BeVietnam",
+);
+
+@each $name,
+$font-family in $font-families {
+    .font-#{$name} {
+        font-family: $font-family, sans-serif;
+    }
+}
+
+$asset-path: "../webfonts/";
+
+/* Fonts includer */
+@mixin font-face($font-family, $font-file, $weight: "normal", $style: "normal") {
+    @font-face {
+        font-family: $font-family;
+        src: local($font-file), url($asset-path + $font-file + ".ttf") format("truetype");
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+@include font-face("BeVietnam", "BeVietnam-ExtraBold", 800);
+@include font-face("BeVietnam", "BeVietnam-Bold", 700);
+@include font-face("BeVietnam", "BeVietnam-SemiBold", 600);
+@include font-face("BeVietnam", "BeVietnam-Medium", 500);
+@include font-face("BeVietnam", "BeVietnam-Regular", 400);
+@include font-face("BeVietnam", "BeVietnam-Light", 300);
+@include font-face("BeVietnam", "BeVietnam-Thin", 200);
