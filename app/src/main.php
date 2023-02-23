@@ -612,12 +612,14 @@
                         <div class="col-7 col-md-5">
                             <select name="service" class="form-control form-select dark">
                                 <option selected disabled>Select service*</option>
-                                <option>Shower Sealing</option>
-                                <option>Bath Sealing</option>
-                                <option>Grout Repairs</option>
-                                <option>Leaking Showers</option>
-                                <option>Leaking Balcony</option>
-                                <option>Water Proofing</option>
+                                <option>Gutter Cleaning</option>
+                                <option>Gutter Replacement</option>
+                                <option>Leak Guard Installation</option>
+                                <option>Gutter Repairs</option>
+                                <option>Downpipe Repairs</option>
+                                <option>Ground Drains Cleared</option>
+                                <option>Drain Pipe Unblocking</option>
+                                <option>Path & Driveway Pressure Cleaning</option>
                             </select>
                         </div>
                         <div class="col">
