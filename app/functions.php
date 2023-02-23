@@ -2,8 +2,8 @@
 include __DIR__ . '/env.php';
 
 $site = "Roof & Gutter Repairs Melbourne";
-$phone_number = "(03) 9134 8951";
-$admin_email = 'arijal@aiims.com.au'; //'info@generalhomeservices.com.au';
+$phone_number = "1300 497 031";
+$admin_email = 'info@generalhomeservices.com.au';
 $bcc_email = "";
 $no_reply_email = 'info@generalhomeservices.com.au';
 $recaptcha_client_secret = $client_secret;
