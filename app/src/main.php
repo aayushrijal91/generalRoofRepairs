@@ -15,6 +15,9 @@
                 <div class="col-4 col-md-auto text-end">
                     <div class="text-secondary fw-600 subtitle">Melbourne Wide</div>
                 </div>
+                <div class="col-auto d-none d-lg-block">
+                    <a href="tel:<?= $phone_number ?>" class="btn btn-quarternary rounded-pill border-primary shadow-primary text-white fs-23 px-md-4 w-100"><?= $phone_number ?></a>
+                </div>
             </div>
         </div>
     </div>
