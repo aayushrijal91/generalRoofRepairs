@@ -181,7 +181,7 @@
                 <div class="awards-container">
                     <div class="fs-17 lh-1_7 d-none d-md-block">Welcome to Roof and Gutter Repairs Melbourne by General Home Services. We are a Melbourne-based company specialising in roof and gutter repairs. Our commitment to exceptional workmanship and attention to detail sets us apart. With years of experience in the industry, we have built a reputation for quality services and satisfied customers.</div>
                     <div class="text-capitalize fs-25 fw-600 lh-1 pt-md-5 pb-md-4">Best shower seal company award winner</div>
-                    <div class="row pt-4 justify-content-around gx-1 gx-md-4 mb-n5 mb-md-0">
+                    <div class="row pt-4 justify-content-around gx-1 gx-md-4">
                         <div class="col col-md-auto"><?= renderImg('award-2020-sm.png', 'lib', 'd-md-none') ?><?= renderImg('award-2020.png', 'lib', 'd-none d-md-block') ?></div>
                         <div class="col col-md-auto"><?= renderImg('award-2021-sm.png', 'lib', 'd-md-none') ?><?= renderImg('award-2021.png', 'lib', 'd-none d-md-block') ?></div>
                         <div class="col col-md-auto"><?= renderImg('award-2022-sm.png', 'lib', 'd-md-none') ?><?= renderImg('award-2022.png', 'lib', 'd-none d-md-block') ?></div>
@@ -410,42 +410,42 @@
         <?php
         $services = [
             [
-                "name" => "Shower Sealing",
+                "name" => "Gutter Cleaning",
                 "icon" => "gutter-cleaning.png",
                 "description" => "We'll be at your door within the hour."
             ],
             [
-                "name" => "Bath Sealing",
+                "name" => "Gutter Replacement",
                 "icon" => "gutter-cleaning.png",
                 "description" => "No extra or hidden fees for extended time."
             ],
             [
-                "name" => "Grout Repair",
+                "name" => "Leak Guard Installation",
                 "icon" => "gutter-cleaning.png",
                 "description" => "Teams all over Sydney to assist you 24/7."
             ],
             [
-                "name" => "Water Proofing",
+                "name" => "Gutter Repair",
                 "icon" => "gutter-cleaning.png",
                 "description" => "Teams all over Sydney to assist you 24/7."
             ],
             [
-                "name" => "Leaking Balcony",
+                "name" => "Downpipe Repairs",
                 "icon" => "gutter-cleaning.png",
                 "description" => "We’ll be at your door within the hour."
             ],
             [
-                "name" => "Leaking Shower",
+                "name" => "Ground Drains Cleared",
                 "icon" => "gutter-cleaning.png",
                 "description" => "No extra or hidden fees for extended time."
             ],
             [
-                "name" => "Gutter Cleaning",
+                "name" => "Drain Pipe Cleared",
                 "icon" => "gutter-cleaning.png",
                 "description" => "No extra or hidden fees for extended time."
             ],
             [
-                "name" => "Gutter Cleaning",
+                "name" => "Path & Driveway Pressure Cleaning",
                 "icon" => "gutter-cleaning.png",
                 "description" => "No extra or hidden fees for extended time."
             ],
