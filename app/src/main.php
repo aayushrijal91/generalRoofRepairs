@@ -428,12 +428,12 @@
             [
                 "name" => "Leak Guard Installation",
                 "icon" => "gutter-cleaning.png",
-                "description" => "Teams all over Sydney to assist you 24/7."
+                "description" => "Teams all over Melbourne to assist you 24/7."
             ],
             [
                 "name" => "Gutter Repair",
                 "icon" => "gutter-cleaning.png",
-                "description" => "Teams all over Sydney to assist you 24/7."
+                "description" => "Teams all over Melbourne to assist you 24/7."
             ],
             [
                 "name" => "Downpipe Repairs",

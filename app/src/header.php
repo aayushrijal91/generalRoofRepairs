@@ -44,6 +44,38 @@
 	<!-- End Google Tag Manager -->
 
 	<script async src="https://trkcall.com/scripts/95412.js"></script>
+
+	<!-- Google tag (gtag.js) -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46094308-70"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'AW-11105375664');
+		gtag('config', 'UA-46094308-70');
+	</script>
+
+	<!-- Google tag (gtag.js) -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11105375664"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		gtag('js', new Date());
+
+		gtag('config', 'AW-11105375664');
+	</script>
 </head>
 
 <body>
